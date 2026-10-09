@@ -1,0 +1,11 @@
+@use '../utils' as *;
+
+.button
+{
+    @include rigorous-border;
+    &-element
+    {
+        width: 100%;
+        margin-bottom: $list-gap-half;
+    }
+}
