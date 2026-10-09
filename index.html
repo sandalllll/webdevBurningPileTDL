@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru" id="theHtml" data-theme="bright" class="js-htmlstat">
+    <body class="body">
+        <link rel="stylesheet" href="css/styles.css">
+        <main class="main">
+            <div class="head">
+                Дела, домыслы и прочие, прочие, прочие...
+            </div>
+            <div class="list-base">
+                <div class="list list-outer">
+                    <div class="list">
+                        <div class="margin"></div>
+                        <div>
+                            <label class="lablel" for="search">Введите название помысла чтобы найти его.</label>
+                            <input type="text" id="search" class="field field-element" placeholder="найти">
+                        </div>
+                        <div id="container">
+                        </div>
+                        <div>
+                            <button id="addB" class="button button-element" aria-label="новый помысел">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                2026<br>
+                Полночь?<input type="checkbox" id="themeS" >
+                <label class="lablel" for="themeS">Нажмите что-бы сменить тему.</label>
+            </div>
+        </main>
+        <dialog id="editorD">
+            <label class="lablel" for="editorT">Введите название нового помысла чтобы добавить или измените существующий. Сотрите всё что-бы удалить.</label>
+            <textarea id="editorT" class="field" placeholder="новый помысел"></textarea>
+        </dialog>
+		<script src="js/controller.js"></script>
+		<script src="js/srcrollBarFix.js"></script>
+		<script src="js/editor.js"></script>
+		<script src="js/theme.js"></script>
+    </body>
+</html>
