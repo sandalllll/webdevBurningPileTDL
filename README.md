@@ -1,5 +1,9 @@
-# Vue 3 + Vite
+Список дел. Дмитриев А. В. ФИТ-241
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+для запуска: установите nodejs, перейдите в папку с репозиторием, затем npx install, затем npm run build, затем npm run preview
+для разработки: установите nodejs, перейдите в папку с репозиторием, затем npx install, затем npm run sass:dev, затем npm run vite:dev (в отдельном окне)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+watch - применены для отслеживания текста введённого в поиск и текущих todos, нужно это для своевременой адаптации данных для представления списка
+v-if - не применены
+
+pages: https://sandalllll.github.io/webdevBurningPileTDL/
