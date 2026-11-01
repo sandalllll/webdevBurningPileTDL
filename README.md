@@ -1,5 +1,5 @@
-Список дел. Дмитриев А. В. ФИТ-241
+# Vue 3 + Vite
 
-для запуска: установите nodejs, Перейдите в папку с репозиторием, затем npx install и npx serve .
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-для разработки: выполните "для запуска" и npm run sass:dev (в отдельном окне)
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
