@@ -1,0 +1,13 @@
+@use '../utils' as *;
+
+.field
+{
+    box-sizing:border-box;
+    @include rigorous-border;
+    text-align: center;
+    &-element
+    {
+        margin-bottom: $list-gap;
+        width: 100%;
+    }
+}

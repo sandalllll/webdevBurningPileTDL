@@ -1,0 +1,11 @@
+@use '../utils' as *;
+
+.body
+{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-bg);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

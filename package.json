@@ -1,0 +1,22 @@
+{
+  "name": "todo-list",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "sass:dev": "sass --watch scss/main.scss:src/style.css",
+    "sass:build": "sass --no-source-map --style=compressed scss/main.scss:src/style.css",
+    "vite:dev": "vite",
+    "vite:build": "vite build",
+    "build": "sass --no-source-map --style=compressed scss/main.scss:src/style.css & vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "sass": "^1.107.1",
+    "vue": "^3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.10",
+    "vite": "^8.3.5"
+  }
+}

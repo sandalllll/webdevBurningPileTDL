@@ -1,0 +1,6 @@
+@use '../utils' as *;
+
+.lablel
+{
+    @include hidden-label;
+}
