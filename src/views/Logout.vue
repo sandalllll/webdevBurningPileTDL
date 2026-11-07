@@ -8,9 +8,12 @@ const todoStore = useTodoStore()
 todoStore.$patch((state) => {
 	state.tds[userStore.ud.current] = JSON.parse(window.localStorage.getItem("todos"))
 });
-window.localStorage.setItem("todos", "[]")
-userStore.ud = {current: "", users: userStore.ud.users}
-window.location.href += "/../login";
+if (userStore.ud.current != "")
+{
+	window.localStorage.setItem("todos", "[]")
+	userStore.ud = {current: "", users: userStore.ud.users}
+}
+window.location.href = window.location.href.substring(0, window.location.href.length - 6) + "login";
 </script>
 
 <template>

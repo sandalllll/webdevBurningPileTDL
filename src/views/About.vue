@@ -5,7 +5,7 @@ import ThemeToggle from './../components/ThemeToggle.vue'
 <template>
 	<link rel="stylesheet" href="src/style.css">
 	<main class="main">
-		<router-link to="/webdevBurningPileTDL/">Назад</router-link>
+		<router-link to="/">Назад</router-link>
 		<div class="head">
 			Что же это такое?
 		</div>

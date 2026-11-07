@@ -12,8 +12,8 @@ if (userStore.ud.current == "")
 <template>
 	<link rel="stylesheet" href="src/style.css">
 	<main class="main">
-			<router-link to="/webdevBurningPileTDL/about">О списке</router-link>
-			<router-link to="/webdevBurningPileTDL/logout">Выйти</router-link>
+		<router-link to="/about">О списке</router-link>
+		<router-link to="/logout">Выйти</router-link>
 		<div class="head">
 			Дела, домыслы и прочие, прочие, прочие...
 		</div>

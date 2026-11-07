@@ -52,7 +52,7 @@ const trySig = () =>
 	userStore.$patch((state) => {
 		state.ud.users[login] = {password: password, email: email};
 	});
-	window.location.href += "/../login";
+	window.location.href = window.location.href.substring(0, window.location.href.length - 6) + "login";
 }
 </script>
 
@@ -65,7 +65,7 @@ const trySig = () =>
 		<div class="list-base">
 			<div class="list list-outer">
 				<div class="list">
-					<router-link to="/webdevBurningPileTDL/login">(назад)</router-link><br>
+					<router-link to="/login">(назад)</router-link><br>
 					Логин<br>
 					<input v-model="lgn"><br>
 					Почта<br>

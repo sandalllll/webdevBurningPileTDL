@@ -14,7 +14,7 @@ const tryIn = () =>
 	{
 		window.localStorage.setItem("todos", JSON.stringify(toRaw(todoStore.tds[lgn.value])))
 		userStore.ud = {current: lgn.value, users: userStore.ud.users}
-		window.location.href += "/../";
+		window.location.href = window.location.href.substring(0, window.location.href.length - 5);
 	}
 	else
 		fail.value = true;
@@ -30,7 +30,7 @@ const tryIn = () =>
 		<div class="list-base">
 			<div class="list list-outer">
 				<div class="list">
-					Нет учетной записи? <router-link to="/webdevBurningPileTDL/signin">(Регистрация)</router-link><br>
+					Нет учетной записи? <router-link to="/signin">(Регистрация)</router-link><br>
 					Логин<br>
 					<input v-model="lgn"><br>
 					Пароль<br>
