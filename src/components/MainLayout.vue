@@ -1,11 +1,19 @@
 <script setup>
 import ThemeToggle from './ThemeToggle.vue'
 import ListBase from './ListBase.vue'
+import { useUserStore } from './../stores/useUserStore'
+const userStore = useUserStore()
+if (userStore.ud.current == "")
+{
+	window.location.href += "login";
+}
 </script>
 
 <template>
 	<link rel="stylesheet" href="src/style.css">
 	<main class="main">
+			<router-link to="/webdevBurningPileTDL/about">О списке</router-link>
+			<router-link to="/webdevBurningPileTDL/logout">Выйти</router-link>
 		<div class="head">
 			Дела, домыслы и прочие, прочие, прочие...
 		</div>
