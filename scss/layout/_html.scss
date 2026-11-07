@@ -1,0 +1,12 @@
+@use '../utils' as *;
+
+.js-htmlstat
+{
+    height: 100%;
+    min-height: none;
+}
+.js-htmldyn
+{
+    height: none;
+    min-height: 100%;
+}

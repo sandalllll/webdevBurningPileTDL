@@ -1,0 +1,28 @@
+@use '../utils' as *;
+
+.js-todo
+{
+    display: flex;
+    &-outer
+    {
+        flex-direction: row;
+        margin-bottom: $list-gap;
+        gap: $list-gap;
+    }
+    &-inner
+    {
+        align-items: center;
+        border: 1px solid;
+        justify-content: center;
+        box-sizing: border-box;
+        &--center
+        {
+            flex-grow: 1;
+        }
+        &--side
+        {
+            @include rigorous-border;
+            flex-grow: 0;
+        }
+    }
+}

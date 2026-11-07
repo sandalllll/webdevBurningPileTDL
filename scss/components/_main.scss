@@ -1,0 +1,10 @@
+@use '../utils' as *;
+
+.main
+{
+    display: flex;
+    background-color: $pillar-color;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+}

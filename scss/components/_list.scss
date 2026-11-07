@@ -1,0 +1,17 @@
+@use '../utils' as *;
+
+.list
+{
+    margin-left: $list-gap-half;
+    margin-right: $list-gap-half;
+    &-outer
+    {
+        background-color: $list-color;
+    }
+    &-base
+    {
+        flex-grow: 1;
+        max-width: $max-width;
+        min-width: $max-width;
+    }
+}
